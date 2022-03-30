@@ -1,0 +1,6 @@
+" Ultisnips is not appearing right now in the autocompletion menu of lsp
+" completion. Maybe try other snippet plugins
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"

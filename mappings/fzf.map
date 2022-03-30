@@ -1,0 +1,2 @@
+nnoremap <C-f> :Files<CR>
+nnoremap <leader>f :Rg<CR>

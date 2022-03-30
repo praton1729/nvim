@@ -1,0 +1,6 @@
+" disable diagnostics support
+let g:lsp_diagnostics_enabled = 0
+
+autocmd Filetype c,h nnoremap <buffer> <silent> <c-d> :LspDefinition<cr>
+autocmd FileType c,h set omnifunc=lsp#complete
+autocmd FileType c,h set completefunc=lsp#complete

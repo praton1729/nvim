@@ -1,0 +1,2 @@
+nnoremap <C-t> :NERDTreeToggle<CR>
+let g:NERDTreeWinPos="right"
